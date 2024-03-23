@@ -85,16 +85,19 @@ canvas {
   min-height: 50px;
   padding: 0.5em 1em;
   border: none;
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 0 0 0;
   background-color: #e63946;
   color: #fff;
   font-size: 15px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
 }
-
+.lkj {
+  
+  border-radius:  0 6px 6px 0;
+}
 .button--submit:hover {
-  background-color: e63946;
+  background-color: #e63946;
 }
 
 .input:focus,
