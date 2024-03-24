@@ -17,6 +17,5 @@ function TKshot() {
 
 function FTshot() {
   tint_color = document.getElementById("Tcolor").value;
-  canvas.addEventListner("onclick", TKshot());
 }
 
